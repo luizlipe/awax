@@ -575,3 +575,75 @@ header{
   background-color: #b28756;
 }
 
+.section-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+}
+.section-feature .section-feature--right{
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.section-feature .section-feature--info{
+  display: flex;
+  margin-top: 25px;
+}
+
+.section-feature--right .section-feature-details{
+  margin-left: 20px; 
+  width: 400px;
+  
+}
+
+.section-feature--right .section-feature-details h2{
+  text-transform: uppercase;
+}
+.section-feature--right .section-feature-details p{
+ margin-top: 10px;
+ color: #373737;
+}
+.section-feature--right .section-feature-details ul li{
+  list-style: none;
+  text-transform: uppercase;
+  color: #373737;
+  
+}
+.section-feature--right .section-feature-details ul{
+  margin-top: 10px;
+}
+.section-features .sliders-pointers {
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-features .pointer{
+  width: 15px;
+  height: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.section-features .pointer.active{
+  background-color: #b28756;
+}
+.section-features .section-feature-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
