@@ -206,6 +206,7 @@ header{
 
 
 
+
 /*=============== ABOUT US =====================*/
 
 .section-aboutus{
@@ -683,3 +684,79 @@ header{
   text-align: center;
 }
 
+.facts-social{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #999; 
+}
+
+.facts-social .fact-about{
+  display: flex;
+}
+.fact-about .social-icons{
+  display: flex;
+}
+
+.social-icons .icon-social{
+  display: flex;
+  margin-right: 20px;
+}
+.social-icons .icon-social a{
+  margin-right: 8px;
+}
+
+.share-icon{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.share-icon--text{
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  color: #999;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.share-number{
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-weight: 600;
+}
+
+.tw{
+  display: inline-flex;
+  background-color: #34c5f1;
+  border-radius: 20px;
+  padding: 10px;
+}
+.lk{
+  display: inline-flex;
+  background-color: #137cb5;
+  border-radius: 20px;
+  padding: 10px;
+}
+.fb{
+  display: inline-flex;
+  background-color: #137cb5;
+  border-radius: 20px;
+  padding: 8px 13px;
+}
+
+.gp{
+  display: inline-flex;
+    background-color: #e84236;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pt{
+  display: inline-flex;
+    background-color: #ff0000;
+    border-radius: 20px;
+    padding: 10px;
+}
