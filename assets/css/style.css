@@ -760,3 +760,58 @@ header{
     border-radius: 20px;
     padding: 10px;
 }
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us .contact-form form{
+  width: 500px;
+  height: 130px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-form form .form-divider--1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.contact-form form label{
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #999;
+}
+.contact-form form input{
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #999; 
+  font-size: 15px;
+}
+
+.contact-form form .form-divider--1 input,label{
+  margin-right: 10px;
+  width: 100%;
+}
+.contact-form form .form-divider--2{
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-form form .form-divider--2 input{
+  width: 100%;
+  
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
